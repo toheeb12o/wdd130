@@ -1,3 +1,16 @@
+header {
+    text-align: left;
+    background-color: #180b0b;
+
+}
+
+h1 {
+    background-color: rgb(6, 110, 190);
+    text-align: center;
+    color: aliceblue;
+
+}
+
 aside img {
     width: 200px;
     height: auto;
