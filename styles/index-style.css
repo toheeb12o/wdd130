@@ -19,6 +19,7 @@ h1 {
 aside img {
     width: 200px;
     height: auto;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 5);
 
 }
 
@@ -29,6 +30,7 @@ aside {
     padding: 1rem;
     background-color: #eee;
     text-align: center;
+    line-height: 1.5;
 
 }
 
