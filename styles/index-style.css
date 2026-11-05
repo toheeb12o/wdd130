@@ -1,3 +1,8 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
 header {
     text-align: left;
     background-color: #180b0b;
@@ -24,6 +29,7 @@ aside {
     padding: 1rem;
     background-color: #eee;
     text-align: center;
+
 }
 
 p {
