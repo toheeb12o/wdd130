@@ -48,6 +48,10 @@ article {
     float: right;
 }
 
+.hero article img {
+    float: right;
+}
+
 .hero image {
     display: block;
     width: 100%;
