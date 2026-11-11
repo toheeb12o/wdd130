@@ -66,6 +66,11 @@ h1 {
     position: absolute;
     top: 84%;
     left: 84%;
+    float: right;
+}
+
+.socialmedia a {
+    text-decoration: none;
 }
 
 .hero a p {
