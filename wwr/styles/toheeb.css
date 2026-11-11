@@ -1,0 +1,89 @@
+:root {
+    --primary-color: rgba(2, 40, 234, 0.505);
+    --secondary-color: rgba(0, 255, 174, 0.863);
+    --accent1-color: rgb(14, 12, 12);
+    --accent-2color: rgb(20, 16, 1);
+    --heading-font: "times new roman", "Georgia";
+    --body-font: Ariel, san-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+}
+
+header,
+main,
+footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+h1,
+h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+nav,
+p,
+section,
+article {
+    margin: 16px;
+    padding: 8px;
+}
+
+/* .socialmedia a { */
+/* text-decoration: none; */
+/* } */
+
+nav,
+p,
+section,
+article {
+    margin: 16px;
+    padding: 8px;
+}
+
+.hero image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+main p {
+    position: absolute;
+
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--accent1-color);
+    color: rgb(247, 254, 254);
+}
+
+main a img {
+    position: absolute;
+
+}
+
+.hero a img {
+    float: right;
+    width: 120px;
+
+}
+
+main section {
+    background-color: aqua;
+}

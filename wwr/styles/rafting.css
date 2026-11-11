@@ -1,0 +1,91 @@
+:root {
+    --primary-color: rgba(2, 40, 234, 0.505);
+    --secondary-color: rgba(0, 255, 174, 0.863);
+    --accent1-color: rgb(14, 12, 12);
+    --accent2-color: rgb(20, 16, 1);
+    --heading-font: "times new roman", "Georgia";
+    --body-font: Ariel, san-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+}
+
+header,
+main,
+footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+h1,
+h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+nav,
+p,
+section,
+article {
+    margin: 16px;
+    padding: 8px;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--accent1-color);
+    color: rgb(247, 254, 254);
+}
+
+.hero a img {
+
+    width: 100px;
+    position: absolute;
+    top: 84%;
+    left: 84%;
+}
+
+.hero a p {
+    background-color: var(--secondary-color);
+    position: absolute;
+    top: 80%;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    opacity: 80%;
+    text-align: left;
+    padding-right: 120px;
+}
+
+section h2 {
+    background-color: var(--secondary-color);
+    text-align: center;
+    color: var(--accent2-color);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+footer {
+    padding: 0px;
+}
