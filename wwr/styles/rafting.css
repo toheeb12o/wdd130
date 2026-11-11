@@ -43,6 +43,11 @@ article {
     position: relative;
 }
 
+.hero article {
+    position: absolute;
+    float: right;
+}
+
 .hero image {
     display: block;
     width: 100%;
