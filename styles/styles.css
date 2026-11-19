@@ -6,8 +6,10 @@
 nav {
     background-color: rgb(6, 110, 190);
     color: white;
-    padding: 5px;
-    display: block;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 
 }
 
@@ -34,6 +36,7 @@ h1 {
     background-color: rgb(6, 110, 190);
     text-align: center;
     color: aliceblue;
+    border-bottom: rgb(63, 128, 111);
 }
 
 aside img {
@@ -62,4 +65,31 @@ footer {
     margin-top: 10px;
     border-top: 2px solid #180b0b;
     text-align: center;
+}
+
+header,
+footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+header,
+.grid,
+footer {}
+
+.grid {
+    display: grid;
+    align-items: center;
+}
+
+main {
+    grid-column: 2/3;
+    margin: 1rem;
+}
+
+aside {
+    width: 20rem;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
